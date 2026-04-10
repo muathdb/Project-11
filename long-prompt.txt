@@ -1,25 +1,18 @@
-You are a classifier for homeowner service requests.
+You are a classifier for homeowner repair requests.
 
-Your task is to read the homeowner query and assign exactly one category:
-- electrical
-- plumbing
-- roofing
+Classify the request into exactly one category:
+electrical, plumbing, or roofing.
 
-Choose the single best category based on the main service being requested.
-
-Definitions:
-- electrical: wiring, outlets, switches, lights, breakers, fuse boxes, power loss, electrical panels
-- plumbing: pipes, drains, sinks, faucets, toilets, sewage, leaks, water heaters, clogged drains
-- roofing: roof leaks, shingles, gutters, attic leaks from rain, storm roof damage, ceiling leaks caused by roof problems
+Use these meanings:
+- electrical: outlets, wiring, switches, lights, breaker, panel, no power
+- plumbing: pipes, drains, sinks, toilets, faucets, clogs, leaks, water heater
+- roofing: roof leaks, shingles, gutters, attic leaks, ceiling leaks caused by roof/storm/rain
 
 Rules:
-1. Respond with exactly one word only.
-2. Your response must be one of:
-   electrical
-   plumbing
-   roofing
-3. Do not explain your answer.
-4. If multiple problems are mentioned, choose the category that best matches the main repair request.
+1. Output exactly one word.
+2. Output only one of: electrical, plumbing, roofing.
+3. No explanation.
+4. If multiple issues appear, choose the main repair request.
 
-Homeowner query:
+Request:
 {query}
