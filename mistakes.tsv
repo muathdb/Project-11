@@ -1,0 +1,6 @@
+query	target_category	predicted_category
+Rain drips through the attic, but the bathroom drain is also slow.	roofing	plumbing
+The kitchen outlet sparks, and now the sink has standing water.	electrical	plumbing
+Ceiling stain after storms, and the toilet started leaking yesterday.	roofing	plumbing
+No power in bedroom, but I also noticed a small pipe leak.	electrical	plumbing
+Missing shingles after wind, plus the shower drain is clogged.	roofing	plumbing

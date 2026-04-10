@@ -1,0 +1,1 @@
+Classify this homeowner request as exactly one label: electrical, plumbing, or roofing. Reply with only the label. Request: {query}
